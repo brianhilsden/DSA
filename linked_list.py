@@ -150,5 +150,6 @@ lst.deleteItem(10)
 print(lst)
 
             
+#search, insert, insert_beginning 
 
 
