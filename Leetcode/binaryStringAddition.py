@@ -21,7 +21,7 @@ def addBinary(a, b):
     i,j = len(a)-1,len(b)-1
 
     while i>=0:
-       total = carry + int(a[i]) + (int(b[j]) if j>0 else 0)
+       total = carry + int(a[i]) + (int(b[j]) if j>=0 else 0)
        carry = total //2
        result.append(str(total%2))
        i-=1

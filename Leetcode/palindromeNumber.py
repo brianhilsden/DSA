@@ -18,7 +18,6 @@ palindrome
         return False
 
 
-
 isPalindrome(1211) """
 
 num = "23"
